@@ -208,6 +208,7 @@ namespace TexasTsa.Services.TsaYourWay.Core.Storage
                 SubmittableUri = reader["SubmittableUri"].ToString(),
                 Contact = reader["Contact"].ToString(),
                 Overview = reader["Overview"].ToString(),
+                Details = reader["Details"].ToString(),
                 Rules = reader["Rules"].ToString(),
                 StemIntegration = reader["StemIntegration"].ToString(),
                 RelatedCareers = reader["RelatedCareers"].ToString(),
